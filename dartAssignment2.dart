@@ -49,3 +49,13 @@ void printName100Times(String name) {
     print('${i + 1}. $name');
   }
 }
+
+
+// 5. Write a dart program to calculate the sum of natural numbers.
+void sumOfNaturalNumbers(int n) {
+  int sum = 0;
+  for (int i = 1; i <= n; i++) {
+    sum += i;
+  }
+  print('The sum of natural numbers up to $n is: $sum');
+}
