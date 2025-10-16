@@ -188,3 +188,10 @@ num add(num a, num b) {
 num maxNumber(num a, num b, num c) {
   return max(a, max(b, c));
 }
+
+// Problem 19: Create and Print a List of Names
+void listAndPrintNames() {
+  List<String> names = ['Alice', 'Bob', 'Charlie', 'David'];
+  print('--- List of Names ---');
+  print(names);
+}
