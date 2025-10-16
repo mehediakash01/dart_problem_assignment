@@ -182,3 +182,9 @@ num calculatePower(num base, int exponent) {
 num add(num a, num b) {
   return a + b;
 }
+
+// Problem 18: Find Max Number of Three
+
+num maxNumber(num a, num b, num c) {
+  return max(a, max(b, c));
+}
