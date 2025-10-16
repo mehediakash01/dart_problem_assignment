@@ -166,3 +166,8 @@ double calculateCircleArea(double radius) {
   const double pi = 3.14159265359;
   return pi * radius * radius;
 }
+
+// Problem 15: Reverse a String
+String reverseString(String text) {
+  return text.split('').reversed.join();
+}
