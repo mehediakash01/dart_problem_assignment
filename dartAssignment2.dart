@@ -59,3 +59,12 @@ void sumOfNaturalNumbers(int n) {
   }
   print('The sum of natural numbers up to $n is: $sum');
 }
+
+
+// 6. Write a dart program to generate multiplication tables of 5.
+void multiplicationTableOf5() {
+  int number = 5;
+  for (int i = 1; i <= 10; i++) {
+    print('$number x $i = ${number * i}');
+  }
+}
