@@ -254,3 +254,18 @@ void findNameStartingWithA() {
   print('Friend list: $friends');
   print('Names starting with "A": ${namesStartingWithA.toList()}');
 }
+
+// Problem 24: Map Operations (Update Country)
+void mapOperations() {
+  Map<String, dynamic> userInfo = {
+    'name': 'John Doe',
+    'address': '123 Main St',
+    'age': 30,
+    'country': 'USA'
+  };
+  print('--- Initial User Info Map ---');
+  userInfo.forEach((key, value) => print('$key: $value'));
+  userInfo['country'] = 'Canada';
+  print('\n--- Updated User Info Map ---');
+  userInfo.forEach((key, value) => print('$key: $value'));
+}
