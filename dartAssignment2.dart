@@ -79,3 +79,32 @@ void multiplicationTables1to9() {
     }
   }
 }
+
+// 8. Write a dart program to create a simple calculator that performs addition, subtraction, multiplication, and division.
+void simpleCalculator(double num1, double num2, String operation) {
+  double result;
+  switch (operation) {
+    case '+':
+      result = num1 + num2;
+      print('$num1 + $num2 = $result');
+      break;
+    case '-':
+      result = num1 - num2;
+      print('$num1 - $num2 = $result');
+      break;
+    case '*':
+      result = num1 * num2;
+      print('$num1 * $num2 = $result');
+      break;
+    case '/':
+      if (num2 != 0) {
+        result = num1 / num2;
+        print('$num1 / $num2 = $result');
+      } else {
+        print('Error: Division by zero is not allowed.');
+      }
+      break;
+    default:
+      print('Invalid operation specified.');
+  }
+}
