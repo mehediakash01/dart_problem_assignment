@@ -204,3 +204,16 @@ void setAndPrintFruits() {
     print(fruit);
   }
 }
+
+// Problem 21: Calculate Total Expenses
+void calculateTotalExpenses() {
+  List<double> expenses = [25.50, 10.00, 55.75, 120.00, 5.25];
+  double total = 0.0;
+  
+  for (double amount in expenses) {
+    total += amount;
+  }
+  
+  print('List of Expenses: $expenses');
+  print('Total Expenses Amount: \$${total.toStringAsFixed(2)}');
+}
