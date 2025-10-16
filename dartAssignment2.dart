@@ -177,3 +177,8 @@ String reverseString(String text) {
 num calculatePower(num base, int exponent) {
   return pow(base, exponent);
 }
+
+// Problem 17: Add Two Numbers Function
+num add(num a, num b) {
+  return a + b;
+}
