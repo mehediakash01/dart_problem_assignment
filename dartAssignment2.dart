@@ -41,3 +41,11 @@ void checkPosNegZero(num number) {
     print('$number is Zero.');
   }
 }
+
+
+// 4. Write a dart program to print your name 100 times.
+void printName100Times(String name) {
+  for (int i = 0; i < 100; i++) {
+    print('${i + 1}. $name');
+  }
+}
