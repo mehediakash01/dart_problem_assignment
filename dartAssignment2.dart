@@ -234,3 +234,23 @@ void listDays() {
   print('--- List of Days ---');
   print(days);
 }
+
+// Problem 23: Find Name Starting with 'a' using where
+void findNameStartingWithA() {
+  List<String> friends = [
+    'Ben', 
+    'Alex', 
+    'Charlie', 
+    'Diana', 
+    'Aaron', 
+    'Ethan', 
+    'Fiona'
+  ];
+
+  Iterable<String> namesStartingWithA = friends.where(
+    (name) => name.toLowerCase().startsWith('a')
+  );
+  
+  print('Friend list: $friends');
+  print('Names starting with "A": ${namesStartingWithA.toList()}');
+}
