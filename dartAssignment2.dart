@@ -195,3 +195,12 @@ void listAndPrintNames() {
   print('--- List of Names ---');
   print(names);
 }
+
+// Problem 20: Create Set of Fruits and Loop
+void setAndPrintFruits() {
+  Set<String> fruits = {'Apple', 'Banana', 'Orange', 'Mango'};
+  print('--- Set of Fruits (using loop) ---');
+  for (String fruit in fruits) {
+    print(fruit);
+  }
+}
