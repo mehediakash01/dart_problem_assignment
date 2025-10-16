@@ -29,3 +29,15 @@ void checkVowelConsonant(String char) {
     print('$char is a Consonant.');
   }
 }
+
+
+// 3. Write a dart program to check whether a number is positive, negative, or zero.
+void checkPosNegZero(num number) {
+  if (number > 0) {
+    print('$number is Positive.');
+  } else if (number < 0) {
+    print('$number is Negative.');
+  } else {
+    print('$number is Zero.');
+  }
+}
