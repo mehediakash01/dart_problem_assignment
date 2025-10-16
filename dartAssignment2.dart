@@ -120,3 +120,9 @@ void print1to100Exclude41() {
   }
   print('');
 }
+
+// Problem 10: Print Name Using Function
+
+void printMyName(String name) {
+  print('My name is: $name');
+}
