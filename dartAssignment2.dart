@@ -126,3 +126,15 @@ void print1to100Exclude41() {
 void printMyName(String name) {
   print('My name is: $name');
 }
+
+// Problem 11: Print Even Numbers in Interval
+
+void printEvenNumbersInInterval(int start, int end) {
+  print('Even numbers between $start and $end:');
+  for (int i = start; i <= end; i++) {
+    if (i % 2 == 0) {
+      stdout.write('$i ');
+    }
+  }
+  print(''); 
+}
