@@ -171,3 +171,9 @@ double calculateCircleArea(double radius) {
 String reverseString(String text) {
   return text.split('').reversed.join();
 }
+
+// Problem 16: Calculate Power of a Number
+
+num calculatePower(num base, int exponent) {
+  return pow(base, exponent);
+}
