@@ -68,3 +68,14 @@ void multiplicationTableOf5() {
     print('$number x $i = ${number * i}');
   }
 }
+
+
+// 7. Write a dart program to generate multiplication tables of 1-9.
+void multiplicationTables1to9() {
+  for (int table = 1; table <= 9; table++) {
+    print('\n--- Multiplication Table of $table ---');
+    for (int i = 1; i <= 10; i++) {
+      print('$table x $i = ${table * i}');
+    }
+  }
+}
