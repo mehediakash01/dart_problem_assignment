@@ -217,3 +217,20 @@ void calculateTotalExpenses() {
   print('List of Expenses: $expenses');
   print('Total Expenses Amount: \$${total.toStringAsFixed(2)}');
 }
+
+
+// Problem 22: List of Days using add method
+void listDays() {
+  List<String> days = [];
+  
+  days.add('Monday');
+  days.add('Tuesday');
+  days.add('Wednesday');
+  days.add('Thursday');
+  days.add('Friday');
+  days.add('Saturday');
+  days.add('Sunday');
+  
+  print('--- List of Days ---');
+  print(days);
+}
