@@ -138,3 +138,9 @@ void printEvenNumbersInInterval(int start, int end) {
   }
   print(''); 
 }
+
+
+// Problem 12: Create Greet Function
+void greet(String name) {
+  print('Hello, $name.');
+}
