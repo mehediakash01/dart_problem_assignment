@@ -159,3 +159,10 @@ String generateRandomPassword({int length = 12}) {
   }
   return password;
 }
+
+
+// Problem 14: Calculate Area of a Circle
+double calculateCircleArea(double radius) {
+  const double pi = 3.14159265359;
+  return pi * radius * radius;
+}
