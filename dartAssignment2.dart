@@ -269,3 +269,21 @@ void mapOperations() {
   print('\n--- Updated User Info Map ---');
   userInfo.forEach((key, value) => print('$key: $value'));
 }
+
+
+// Problem 25: Find Map Keys with Length 4
+void findKeysWithLength4() {
+  Map<String, dynamic> contactInfo = {
+    'name': 'Alice',
+    'phone': '123-456-7890',
+    'city': 'NY',
+    'code': '001',
+    'work': 'Software'
+  };
+  
+  Iterable<String> keysLength4 = contactInfo.keys.where(
+    (key) => key.length == 4
+  );
+  print('Contact Info Map: $contactInfo');
+  print('Keys with length 4: ${keysLength4.toList()}');
+}
