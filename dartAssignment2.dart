@@ -287,3 +287,33 @@ void findKeysWithLength4() {
   print('Contact Info Map: $contactInfo');
   print('Keys with length 4: ${keysLength4.toList()}');
 }
+
+// Problem 26: Simple To-Do Application Class
+class TodoList {
+  List<String> tasks = [];
+  
+  void addTask(String task) {
+    tasks.add(task);
+    print('Task added: "$task"');
+  }
+  
+  void removeTask(int index) {
+    if (index >= 0 && index < tasks.length) {
+      String removedTask = tasks.removeAt(index);
+      print('Task removed: "$removedTask"');
+    } else {
+      print('Invalid task number. Cannot remove.');
+    }
+  }
+  
+  void viewTasks() {
+    if (tasks.isEmpty) {
+      print('Your To-Do list is empty!');
+      return;
+    }
+    print('--- Your To-Do List ---');
+    for (int i = 0; i < tasks.length; i++) {
+      print('${i + 1}. ${tasks[i]}');
+    }
+  }
+}
