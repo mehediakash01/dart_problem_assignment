@@ -49,3 +49,14 @@ void main() {
     house.show();
   }
 }
+
+
+// 3. Write a dart program to create an enum class for gender [male, female, others] and print all values.
+enum Gender { male, female, others }
+
+void main() {
+  print('--- Gender Enum Values ---');
+  for (var g in Gender.values) {
+    print(g);
+  }
+}
